@@ -1,13 +1,13 @@
-import Container from "@/components/layouts/Container";
 import HeroSection from "./HeroSection";
-
+import ServicesSection from "./ServicesSection";
 
 const Home = () => {
-    return (
-        <Container>
-            <HeroSection />
-        </Container>
-    );
+  return (
+    <div>
+      <HeroSection />
+      <ServicesSection />
+    </div>
+  );
 };
 
 export default Home;
